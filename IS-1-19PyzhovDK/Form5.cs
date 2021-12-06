@@ -22,7 +22,6 @@ namespace IS_1_19PyzhovDK
         private void button1_Click(object sender, EventArgs e)
         {
             ConnectDB1 ConnDb1 = new ConnectDB1();
-            //создаём экзепляр класса MySqlConnection и присваиваем ему значение которое возвращает метод Initialization
             MySqlConnection connDb = new MySqlConnection(ConnDb1.Initialization1());
             string fioStud = textBox1.Text;
             string datetime = textBox2.Text;
@@ -37,7 +36,6 @@ namespace IS_1_19PyzhovDK
             }
             catch (Exception ex)
             {
-                //здесь я поигрался с исключением, хотелось выводить проблему более подробно
                 string message = ex.Message;
                 MessageBox.Show(message);
                 this.Close();
