@@ -28,5 +28,11 @@ namespace IS_1_19PyzhovDK
             Form2 abo = new Form2();
             abo.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 abob = new Form3();
+            abob.ShowDialog();
+        }
     }
 }
