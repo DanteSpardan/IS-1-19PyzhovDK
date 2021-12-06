@@ -40,5 +40,11 @@ namespace IS_1_19PyzhovDK
             Form4 abobu = new Form4();
             abobu.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form5 abobus = new Form5();
+            abobus.ShowDialog();
+        }
     }
 }
