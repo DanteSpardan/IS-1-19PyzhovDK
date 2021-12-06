@@ -47,8 +47,7 @@ namespace IS_1_19PyzhovDK
         }
         string id_rows = "0";
 
-
-        private void dataGridView1_Click(object sender, DataGridViewCellMouseEventArgs e)
+        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             if (!e.RowIndex.Equals(-1) && !e.ColumnIndex.Equals(-1) && e.Button.Equals(MouseButtons.Left))
             {
